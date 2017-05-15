@@ -12,8 +12,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    theMenu = [[NSMenu alloc] initWithTitle:@"Contextual Menu"];
+//    NSMenuItem *item3 = [[NSMenuItem alloc]init];
+//    self.customView.wantsLayer = YES;
+//    self.customView.layer.backgroundColor = [NSColor redColor].CGColor;
+//    item3.title = @"Item 3";
+//    item3.view = self.customView;
+//    
+//    item3.target = self;
+//    item3.action = @selector(beep:);
+//    
+//    [theMenu addItem:item3];
+//    [theMenu popUpMenuPositioningItem:item3 atLocation:NSMakePoint(-self.view.frame.size.width/2, -self.view.frame.size.height/2) inView:self.view];
 
-    // Do any additional setup after loading the view.
 }
 
 -(void)rightMouseDown:(NSEvent *)event{
